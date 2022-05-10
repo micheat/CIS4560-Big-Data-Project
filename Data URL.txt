@@ -1,1 +1,22 @@
 Dataset URL: https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows
+
+To download our sampled and cleaned dataset, please run this cURL command in bash or some other compatible terminal.
+
+curl 'https://csula-my.sharepoint.com/personal/mbates4_calstatela_edu/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fmbates4%5Fcalstatela%5Fedu%2FDocuments%2FCollege%20Semester%208%2FCIS4560%2FProject%2FURWarTweetsMar31%2Ezip' \
+  -H 'authority: csula-my.sharepoint.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: MicrosoftApplicationsTelemetryDeviceId=433cea18-1a64-7c3f-9ffb-61bf77de5578; MicrosoftApplicationsTelemetryFirstLaunchTime=1651476162187; PowerPointWacDataCenter=US1; WordWacDataCenter=PUS5; WacDataCenter=PUS5; CCSInfo=NS8xMS8yMDIyIDEyOjIyOjE2IEFNEHfR+kM3cYk5vKWTyKV9MbqAKVUUUHc0u634zpmoM6+Q61ei3CUfgE+R5OZOGE8g4oaRlgF8QLSHWjk/Ai+QC8/xRBj5u/0S0yXSyBmyHeb1Xskg2Ck1mTN1u+zcR6X9VXXIv9xEnMj6bGqRAQ+uIHIWP+Wpykyy8Ha1K0bcFU5Q/cH9i4VRN+Mii0ghWkAM1Bg5ZPO9L7MqBcvBGVVqNl+h3YdmMexc5b0fZu83WhCh+QDJFqewXHsUbBkOZGhfuP3K1s94OiJ6b2i+FZxf7fulNA8+3xmPz7PMpdq10+CtgQPSl4dksTZ1cznYQW/qJc4ZGyLu2gwexyZdoj7V7RUAAAA=; KillSwitchOverrides_enableKillSwitches=; KillSwitchOverrides_disableKillSwitches=; rtFa=iXQu/6V7+nmJhJHmQGcqY8qQjGR711khdm1fPI/qg7UmMUIxMDA4ODktNEE3Qi00REMyLUFFRDItRDQ4QjkwQzcyQ0Q1IzEzMjk2NDU2NzIxNDI3OTE4OSNBRDQwM0JBMC02MDNCLUMwMDAtRTIxMC1EQTg4QjcyOTBCNzkjTUJBVEVTNCU0MENBTFNUQVRFTEEuRURVabqhf7mNHQqWD6c1eMRKVWGU770xdkfY+sNxxOTjBWiHxxFoSYixEoMnNKc9ng6XQnWQ5El0V3TGB0xPE4uucZ1LsivAfkF0LnViE8Tgie2SJpdSEoghAUw5Ed4u0sZ1EaUqpEHNnP62oThZXkCCarKAvG61IMM6a4shtqUde2VYdYU1+eU2G0PPNl3vEOrgLvuQ8UG6UuAuSXmspB6E/m+bpF/9u47Ep0yMc71jHa1rW6lpL0Xi1M87LNonsEfCP8JGwdgdFZ8wSFG71SaUwETYM0arxX1Zs/4K3ig9GWb0G/M/h6ZXJQT6L2p6rHiz0BzltW/NphysvD9XP1Qq/ZYAAAA=; FedAuth=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjEyLDBoLmZ8bWVtYmVyc2hpcHwxMDAzM2ZmZmE3MzU2N2JmQGxpdmUuY29tLDAjLmZ8bWVtYmVyc2hpcHxtYmF0ZXM0QGNhbHN0YXRlbGEuZWR1LDEzMjk2NDU2NzEyMDAwMDAwMCwxMzE2ODA1NjI5MjAwMDAwMDAsMTMyOTY4ODg3MjE0MTIyOTQ3LDY0LjUyLjE3Ni4xMDYsMywxYjEwMDg4OS00YTdiLTRkYzItYWVkMi1kNDhiOTBjNzJjZDUsLGIwZDdlYmRlLTYwODQtNGI0OS1hMTA0LWJlNDFlMmQxZDNmZixhZDQwM2JhMC02MDNiLWMwMDAtZTIxMC1kYTg4YjcyOTBiNzksYWQ0MDNiYTAtNjAzYi1jMDAwLWUyMTAtZGE4OGI3MjkwYjc5LCwwLDEzMjk2NDYwMzIxMzY1NDI0NywxMzI5NjcxNTkyMTM2NTQyNDcsLCxleUo0YlhOZlkyTWlPaUpiWENKRFVERmNJbDBpTENKNGJYTmZjM050SWpvaU1TSXNJbkJ5WldabGNuSmxaRjkxYzJWeWJtRnRaU0k2SW0xaVlYUmxjelJBWTJGc2MzUmhkR1ZzWVM1bFpIVWlMQ0oxZEdraU9pSlVWMWw1UVVaU1gyTXdZVkpzVkRrNFVFbEtNMEZCSW4wPSwyNjUwNDY3NzQzOTk5OTk5OTk5LDEzMjk2NDU2NzIxMDAwMDAwMCxmNzY4YTE0MS00YzkwLTQwODgtODQ0Ny0yOTEyNjBkYzZiN2MsLCwsLCwwLCxvc3krbnAzM3M0aDN4VnE1WEM4QzZ3ZDR1SDNjWkVEcm5rOXpxZlpVSVdrdTFHcEpWM2h5clFzaG1uTW4yR3ZZKzFaWTFwTkNyZHBhRVJFeUJpZ0dFdFM4Rm1PajRNSnVBOHZTOTNFTUN0ZUp6Vng1Y2JyYWRBKzdrWW1uZ2Y4MW9yR2puRlZ3NnJ2MmZtOUcwYmdBdXJ1NmxvU2NCcXgzUmVXTTBKeU9vNVdTNHdmRDFlcWpNZWw4ZVhzWnYwTmNsaHBNWWg3REZzbUl4aVBXMVNYQVJKbEtwMlFEQ25QYW8vWmFyQnJuVmFaRzBPVGpmZDl0QytVeXg1UlVNY0VFQVJXamJqWnVxWlBaM3ZFRkorc0E3cUpCV2dHYXA3NFVWbFdDWWFqQXAvcXErZkM5MTdRV0Y5UEhyTnJqUmtlU20xN3AwT2NxTUFydk5rMC9XRkE1bFE9PTwvU1A+; cucg=1' \
+  -H 'dnt: 1' \
+  -H 'referer: https://csula-my.sharepoint.com/personal/mbates4_calstatela_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmbates4%5Fcalstatela%5Fedu%2FDocuments%2FCollege%20Semester%208%2FCIS4560%2FProject%2FURWarTweetsMar31%2Ezip&parent=%2Fpersonal%2Fmbates4%5Fcalstatela%5Fedu%2FDocuments%2FCollege%20Semester%208%2FCIS4560%2FProject' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: iframe' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-gpc: 1' \
+  -H 'service-worker-navigation-preload: true' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' \
+  --compressed --output War_Tweets.zip
