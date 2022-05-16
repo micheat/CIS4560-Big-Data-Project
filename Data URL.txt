@@ -20,3 +20,5 @@ curl 'https://csula-my.sharepoint.com/personal/mbates4_calstatela_edu/_layouts/1
   -H 'upgrade-insecure-requests: 1' \
   -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36' \
   --compressed --output War_Tweets.zip
+
+It has come to my attention that the cURL link may expire after some time. Here is a link to One Drive to acces my file: https://csula-my.sharepoint.com/:u:/g/personal/mbates4_calstatela_edu/EZNEuBm5FARFkoOGbnsHP4AB7x_9YkicCJ4TEUrB_jrvqw?e=wsLRTo
